@@ -9,6 +9,7 @@ spec:
     storage: 1Gi
   accessModes:
   - ReadWriteOnce
+  storageClassName: scaws  
   awsElasticBlockStore:
-    volumeID: vol-0a76aa70aff1b3e02
+    volumeID: vol-03e9264e9ead2ad37
     fsType: ext4
