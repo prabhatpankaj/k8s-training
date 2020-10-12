@@ -11,5 +11,5 @@ spec:
   - ReadWriteOnce
   storageClassName: scaws  
   awsElasticBlockStore:
-    volumeID: vol-03e9264e9ead2ad37
+    volumeID: vol-084940dae435ffe02
     fsType: ext4
