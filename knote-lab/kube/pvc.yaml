@@ -3,10 +3,10 @@ kind: PersistentVolumeClaim
 metadata:
   name: mongo-pvc
   labels:
-    type: amazonEBS 
+    type: amazonEBS
 spec:
   accessModes:
     - ReadWriteOnce
   resources:
-    requests:
-      storage: 3Gi
+   requests:
+     storage: 3Gi
