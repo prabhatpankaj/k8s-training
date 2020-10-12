@@ -3,12 +3,12 @@ kind: PersistentVolume
 metadata:
   name: aws-pv
   labels:
-    type: amazonEBS
+    type: aws-pv
 spec:
   capacity:
-    storage: 3Gi
+    storage: 1Gi
   accessModes:
-    - ReadWriteOnce
+  - ReadWriteOnce
   awsElasticBlockStore:
-    volumeID: vol-0b4eaa5e26a3eb884
+    volumeID: vol-0a76aa70aff1b3e02
     fsType: ext4
