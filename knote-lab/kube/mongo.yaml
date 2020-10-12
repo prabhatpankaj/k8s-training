@@ -11,6 +11,7 @@ spec:
     - port: 27017
       targetPort: 27017
 ---
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -35,4 +36,4 @@ spec:
       volumes:
         - name: storage
           persistentVolumeClaim:
-            claimName: mongo-pvc
+            claimName: aws-pvc
